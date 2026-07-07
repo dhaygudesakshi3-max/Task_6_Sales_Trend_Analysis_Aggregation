@@ -1,0 +1,139 @@
+#  Task 6 - Sales Trend Analysis Using SQL Aggregations
+
+## Objective
+
+The objective of this project is to analyze sales trends by calculating monthly revenue and order volume using SQL aggregate functions. The project demonstrates how to summarize business data and identify sales patterns using SQL.
+
+---
+
+## Tools Used
+
+* MySQL Workbench 8.0
+* SQL
+* GitHub
+
+---
+
+## Dataset
+
+**File Name:** `online_sales_extended.csv`
+
+### Dataset Columns
+
+* order_id
+* order_date
+* customer_id
+* product_id
+* category
+* city
+* quantity
+* unit_price
+* amount
+* payment_method
+
+---
+
+## SQL Concepts Used
+
+* SELECT
+* GROUP BY
+* ORDER BY
+* SUM()
+* COUNT()
+* COUNT(DISTINCT)
+* AVG()
+* MAX()
+* MIN()
+* YEAR()
+* MONTH()
+* LIMIT
+
+---
+
+## Tasks Performed
+
+### 1. Imported Sales Dataset
+
+Imported the online sales dataset into MySQL for analysis.
+
+### 2. Monthly Revenue Analysis
+
+Calculated total monthly revenue using the `SUM()` aggregate function.
+
+### 3. Monthly Order Volume
+
+Calculated the total number of unique orders for each month using `COUNT(DISTINCT order_id)`.
+
+### 4. Revenue and Order Analysis
+
+Combined monthly revenue and order volume into a single report.
+
+### 5. Top 3 Months by Revenue
+
+Identified the three highest-performing months based on total sales revenue.
+
+### 6. Revenue by Product Category
+
+Calculated revenue generated from each product category.
+
+### 7. Revenue by City
+
+Analyzed revenue contribution from different cities.
+
+### 8. Payment Method Analysis
+
+Compared total orders and revenue for each payment method.
+
+### 9. Average Order Value
+
+Calculated the average revenue generated per order.
+
+### 10. Highest and Lowest Order Value
+
+Found the maximum and minimum order amounts in the dataset.
+
+### 11. Total Revenue
+
+Calculated the overall revenue generated from all sales.
+
+---
+
+## Key Insights
+
+* Monthly sales trends can be identified using SQL aggregation.
+* Revenue varies across months, cities, and product categories.
+* Payment method analysis helps understand customer purchasing behavior.
+* Aggregate functions simplify business reporting and decision-making.
+* SQL is an effective tool for sales data analysis.
+
+---
+
+## Project Structure
+
+```
+Task-6-Sales-Trend-Analysis/
+│
+├── online_sales_extended.csv
+├── task6.sql
+├── README.md
+└── Screenshots/
+    ├── 1_database.png
+    ├── 2_imported_data.png
+    ├── 3_total_orders.png
+    ├── 4_monthly_revenue.png
+    ├── 5_monthly_order_volume.png
+    ├── 6_revenue_and_orders.png
+    ├── 7_top3_months.png
+    ├── 8_category_revenue.png
+    ├── 9_city_revenue.png
+    ├── 10_payment_analysis.png
+    ├── 11_average_order_value.png
+    ├── 12_max_min_order.png
+    └── 13_total_revenue.png
+```
+
+---
+
+## Outcome
+
+Successfully performed sales trend analysis using SQL aggregate functions to generate meaningful business insights from sales data. This project strengthened practical knowledge of SQL data analysis, grouping, aggregation, sorting, and reporting.
